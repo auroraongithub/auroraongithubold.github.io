@@ -1179,13 +1179,13 @@ body {
       rgba(10, 10, 10, 0.3),
       rgb(10, 10, 10, 1)
     ),
-    url("https://pbs.twimg.com/media/FRxiTNEaAAEc1_B?format=jpg&name=4096x4096");
+    url("https://pbs.twimg.com/media/FMffgvLaMAcIosh?format=jpg&name=4096x4096");
   --background-background: linear-gradient(
       0deg,
       rgba(10, 10, 10, 1),
       rgba(10, 10, 10, 0.6)
     ),
-    url("https://pbs.twimg.com/media/FRxiTNEaAAEc1_B?format=jpg&name=4096x4096") center center fixed;
+    url("https://pbs.twimg.com/media/FMffgvLaMAcIosh?format=jpg&name=4096x4096") center center fixed;
   --height: 50vh;
 }
 
@@ -1216,7 +1216,7 @@ body {
         rgba(10, 10, 10, 1),
         rgba(10, 10, 10, 0)
       ),
-      url("https://pbs.twimg.com/media/FRxiTNEaAAEc1_B?format=jpg&name=4096x4096") !important;
+      url("https://pbs.twimg.com/media/FMffgvLaMAcIosh?format=jpg&name=4096x4096") !important;
   }
 }
 */
