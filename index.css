@@ -752,6 +752,12 @@ body {
   background: rgb(200, 200, 200);
 }
 
+#about_section section {
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: #000000;
+}
+
 @media (max-width: 800px) {
   :root {
     --background-image: linear-gradient(
