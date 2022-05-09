@@ -28,9 +28,26 @@
   <link rel="icon" href="https://avatars.githubusercontent.com/u/86182778?v=4" type="image/png"></head>
 
   <body>
-    <div id="loading">
+    <div id="loading" !important>
       <div id="spinner"></div>
     </div>
+	<!-- copypaste in blogs -->
+	<div id="nav-background">
+  <div id="nav-container">
+    <header id="nav-header">
+      <h1><a href="#" id="nav-logo"></a></h1>
+      <div id="nav-menu-button">MENU</div>
+    </header>
+    <nav>
+      <ul class="nav-ul hide-ul">
+        <li><a class="nav-link active-link" href="#">Home</a></li>
+		<li><a class="nav-link" href="#work">My Repositories</a></li>
+        <li><a class="nav-link" href="#blog_section">Blogs</a></li>
+        <li><a class="nav-link" href="#about_section">About Me</a></li>
+    </nav>
+  </div>
+</div>
+<!-- copypaste in blogs -->
     <div id="profile">
       <div id="profile_img" style="background: url(https://a.ppy.sh/12352050?1646805211.jpeg) center;"></div>
 	  <div id="username"><span style="display:block;"><a href="https://osu.ppy.sh/users/12352050/osu">aurora.</a></span>
@@ -43,19 +60,19 @@
                 <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Philippines</span>
                 <span style="display:none;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
                 <div class="socials">
-                <span style="display:block !important"><a href="https://twitter.com/twit_aurora" target="_blank" class="socials"><i class="fab fa-twitter"></i> twit_aurora.</a></span>
-				<span style="display:block !important;"><a href="https://www.youtube.com/c/roraYT" target="_blank" class="socials"><i class="fab fa-youtube"></i> roraYT</a></span>
-				<span style="display:block !important;"><a href="https://dsc.gg/evescans" target="_blank" class="socials"><i class="fab fa-discord"></i> EveScans</a></span>
-				<span style="display:block !important;"><i class="fab fa-discord"></i> aurora.#8612</span>
+                <span style="display:block !important"><a href="https://twitter.com/twit_aurora" target="_blank" class="socials"><i class="fab fa-twitter"></i>&nbsp; twit_aurora.</a></span>
+				<span style="display:block !important;"><a href="https://www.youtube.com/c/roraYT" target="_blank" class="socials"><i class="fab fa-youtube"></i>&nbsp; roraYT</a></span>
+				<span style="display:block !important;"><a href="https://dsc.gg/evescans" target="_blank" class="socials"><i class="fab fa-discord"></i>&nbsp; EveScans</a></span>
+				<span style="display:block !important;"><i class="fab fa-discord"></i>&nbsp; aurora.#8612</span>
                 </div>
                 </div>
     </div>
     <div id="display">
 	  <div id="header">
-        <a href="https://osu.ppy.sh/users/12352050/osu"><img class="osu" src="https://osu-sig.vercel.app/card?user=aurora%20on%20osu&mode=std&lang=en&blur=6&animation=true&hue=154"></a>
+        <p>my osu! profile</p><a href="https://osu.ppy.sh/users/12352050/osu"><img class="osu" src="https://osu-sig.vercel.app/card?user=aurora%20on%20osu&mode=std&lang=en&blur=6&animation=true&hue=154"></a>
     </div>
     <div id="work">
-	  <center><h1>My Repositories</h1></center>
+	  <center><h1>My Repositories.</h1></center>
         <div class="projects" id="work_section">
                         <a href="https://github.com/auroraongithub/osu-Offline-Switcher" target="_blank">
                         <section>
@@ -72,15 +89,25 @@
                         </a></div>
 		</div>
 		<div id="forks" style="display:none;">
-        <h1>Forks.</h1>
+        <center><h1>Forks.</h1></center>
         <div class="projects" id="forks_section"></div>
       </div>
       <div id="blog_section">
-        <h1>Blog.</h1>
+        <center><h1>Blogs.</h1></center>
         <div id="blogs"></div>
       </div>
+	        <div id="about">
+        <center><h1>About Me.</h1></center>
+        <div id="about_section"></div>
+		<div>
+		&nbsp;
+		<center><p>My name's aurora (roraosu), you can usually find me on different sites,
+		<p>games, etc by adding an <strong>"on *insert platform*"</strong> to my name.</p>
+		<p>My interests range from computers, games, and creating things.</p>
+		<p>If you need something, don't hesitate to contact me on my discord or email me.</p></center></div>
+      </div>
       <div id="footer">
-        <a href="https://dsc.gg/evescans" target="_blank">join our scanlation discord :P</a>
+        <a href="https://dsc.gg/evescans" target="_blank">made by aurora. :P</a>
       </div>
     </div>
     <script type="text/javascript">
