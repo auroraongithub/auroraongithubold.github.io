@@ -166,40 +166,22 @@ body {
 @media screen and (max-width: 700px) {
 
   #nav-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    flex-direction: row;
+    flex-basis: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
     text-align: center;
   }
 
   #nav-menu-button {
-    padding: 1rem;
-    background-color: #f1f1f1;
+    background-color: transparent;
     cursor: pointer;
-  }
+    }
+      
+    .nav-link {
+    flex-basis: auto;
+    padding: 1rem 1.15rem;
 
-  .nav-ul {
-    display: block;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    overflow: auto;
-    direction: rtl;
-    transition: max-height 400ms;
-    max-height: 80vh;
-  }
-
-  .hide-ul {
-    max-height: 0;
-  }
-
-  .nav-link {
-    padding: 1rem 0;
-    font-size: 1.3rem;
   }
 }
 /* END MOBILE MENU */
