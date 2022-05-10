@@ -586,6 +586,7 @@ body {
 }
 
 .go_back {
+  padding: 70px;
   position: absolute;
   color: var(--text-color);
   font-size: 26px;
