@@ -586,11 +586,12 @@ body {
 }
 
 .go_back {
+  top: 60px;
   position: absolute;
   color: var(--text-color);
   font-size: 26px;
   margin-left: 5vw;
-  margin-top: 7vh;
+  margin-top: 4vh;
 }
 
 ::selection {
