@@ -714,7 +714,7 @@ body {
   background: var(--text-color);
 }
 :root {
-  --bg-color: rgb(10, 10, 10,);
+  --bg-color: rgb(10, 10, 10);
   --text-color: #fff;
   --blog-gray-color: rgb(180, 180, 180);
   --background-image: linear-gradient(
@@ -745,11 +745,11 @@ body {
 }
 
 .projects section {
-  background: rgb(40, 40, 40);
+  background: rgb(20, 20, 20);
 }
 
 #blog_section section {
-  background: rgb(40, 40, 40);
+  background: rgb(20, 20, 20);
 }
 
 @media (max-width: 800px) {
