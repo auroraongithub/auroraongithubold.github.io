@@ -81,7 +81,7 @@ body {
 
 /* NAVIGATION */
 #nav-background {
-  position: fixed;
+  position: auto;
   top: 0;
   z-index: 9000;
   width: 100%;
