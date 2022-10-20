@@ -315,6 +315,7 @@ body {
 #blog-display {
   padding: 1vh 0px;
   font-family: "Questrial", sans-serif;
+  overflow: scroll
 }
 
 #blog p {
@@ -322,7 +323,6 @@ body {
   line-height: 25px;
   word-spacing: 1.2px;
   margin: 5vh 0px;
-  overflow: auto
 }
 
 #blog p span {
