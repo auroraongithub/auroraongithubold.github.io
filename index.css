@@ -322,6 +322,7 @@ body {
   line-height: 25px;
   word-spacing: 1.2px;
   margin: 5vh 0px;
+  overflow: auto
 }
 
 #blog p span {
